@@ -1,0 +1,9 @@
+estatefix/
+myenv/
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+.vscode/
+.idea/
+pipeline.pkl
+df.pkl
