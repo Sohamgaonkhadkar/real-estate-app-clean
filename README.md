@@ -15,7 +15,7 @@ This repository contains the production-grade Streamlit application serving the 
 
 ### 1. Predictive Valuation Engine
 An algorithmic price prediction interface. Users input specific property metrics (Sector, Built-up Area, BHK, Property Age, and Luxury/Furnishing Scores) to receive a direct, data-driven market valuation.
-* **Backend Infrastructure:** Driven by an Optuna-optimized **XGBoost Regressor** (MAE: 0.4170).
+* **Backend Infrastructure:** Driven by an Optuna-optimized **XGBoost Regressor** (MAE: 0.4475).
 * **Feature Engineering Integration:** The model seamlessly processes high-cardinality geographic inputs (100+ Gurgaon sectors) using a serialized Scikit-Learn `ColumnTransformer` embedded with **Bayesian Target Encoding**.
 
 ### 2. Context-Aware Recommender System
